@@ -15,6 +15,4 @@ code {
   font-family: 'Ramadan';
   src: local('Ramadan'), url(./fonts/Ramadan.ttf) format('truetype');
   font-weight: normal;
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
 }

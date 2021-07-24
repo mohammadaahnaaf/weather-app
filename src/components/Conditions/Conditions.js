@@ -12,9 +12,9 @@ const conditions = (props) => {
     let unitName;
     // console.log(unit);
     if(unit === "metric") {
-        unitName = '°C'
+        unitName = '°C '
     } else {
-        unitName = '°F'
+        unitName = '°F '
     }
     
     return (

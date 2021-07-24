@@ -86,7 +86,7 @@ const ctr2 = <Checkbox icon={<AcUnitOutlinedIcon />} checkedIcon={<AcUnitIcon />
                        </Button></Grid>
                  </Grid>
                  
-                    <div>
+                    {/* <div>
                     <Grid className={classes.units} container direction="row" justify="center" alignItems="center"> 
 
                     <Grid item className={classes.item} xs={3}>
@@ -97,9 +97,10 @@ const ctr2 = <Checkbox icon={<AcUnitOutlinedIcon />} checkedIcon={<AcUnitIcon />
                         checked={unit === "imperial"}
                         value="imperial"
                         onChange={(e) => setUnit(e.target.value)}
-                    /></Grid><Grid item className={classes.item} xs={3}><label>°F</label></Grid>
-                    
-                    <Grid item className={classes.item} xs={3}> <label>°C</label></Grid>
+                    />
+                    </Grid>
+                    <Grid item className={classes.item} xs={3}><label>°F</label></Grid>
+                    <Grid item className={classes.item} xs={3}><label>°C</label></Grid>
                     <Grid item className={classes.item} xs={3}>
                     <FormControlLabel
                         control={ctr1}
@@ -110,7 +111,7 @@ const ctr2 = <Checkbox icon={<AcUnitOutlinedIcon />} checkedIcon={<AcUnitIcon />
                         onChange={(e) => setUnit(e.target.value)}
                     /></Grid>
                 
-                </Grid></div>
+                </Grid></div> */}
             </form>
             <Conditions
                responseObj={responseObj}
